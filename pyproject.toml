@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "slap_back"
+version = "0.1.0"
+description = "An api to return mock data"
+authors = ["Jasper Wagen <jasperwagen01@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.85.1"
+uvicorn = "^0.19.0"
+lorem-text = "^2.1"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+pytest = "^7.2.0"
+httpretty = "^1.1.4"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
